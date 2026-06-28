@@ -1,0 +1,802 @@
+{
+  "BstNode_99988869": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.5110830068588257",
+          "0.0",
+          "0.9265890121459961",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "1.0581929683685303",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-0.9265890121459961",
+          "0.0",
+          "0.5110830068588257",
+          "0.0"
+        ],
+        [
+          "-0.43158721923828125",
+          "0.0",
+          "-0.3305549621582031",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": "[Unknown]09",
+      "lifetime": "0",
+      "numWaxToGive": "[Unknown]03",
+      "bstGuid": "99988869",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988850": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "-0.29881298542022705",
+          "0.0",
+          "1.058804988861084",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.49028199911117554",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-1.058804988861084",
+          "0.0",
+          "-0.29881298542022705",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.0",
+          "0.0",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": true,
+      "lifetime": "0",
+      "numWaxToGive": true,
+      "bstGuid": "99988850",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988851": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.5313529968261719",
+          "0.0",
+          "0.9633380174636841",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.7430649995803833",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-0.9633380174636841",
+          "0.0",
+          "0.5313529968261719",
+          "0.0"
+        ],
+        [
+          "-0.00833892822265625",
+          "0.0",
+          "-0.32573890686035156",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": true,
+      "lifetime": "0",
+      "numWaxToGive": true,
+      "bstGuid": "99988851",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988852": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.8286629915237427",
+          "0.0",
+          "0.7236530184745789",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.7405790090560913",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-0.7236530184745789",
+          "0.0",
+          "0.8286629915237427",
+          "0.0"
+        ],
+        [
+          "-0.6031875610351562",
+          "0.0",
+          "-0.023204803466796875",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": true,
+      "lifetime": "0",
+      "numWaxToGive": true,
+      "bstGuid": "99988852",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988853": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.48521101474761963",
+          "0.0",
+          "0.8796839714050293",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.8617420196533203",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-0.8796839714050293",
+          "0.0",
+          "0.48521101474761963",
+          "0.0"
+        ],
+        [
+          "-0.43711090087890625",
+          "0.0",
+          "-0.050567626953125",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": "[Unknown]08",
+      "lifetime": "0",
+      "numWaxToGive": "[Unknown]05",
+      "bstGuid": "99988853",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988854": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.48521101474761963",
+          "0.0",
+          "0.8796839714050293",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "1.0046260356903076",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-0.8796839714050293",
+          "0.0",
+          "0.48521101474761963",
+          "0.0"
+        ],
+        [
+          "-0.6667327880859375",
+          "0.0",
+          "-0.1780376434326172",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": "[Unknown]08",
+      "lifetime": "0",
+      "numWaxToGive": "[Unknown]05",
+      "bstGuid": "99988854",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988855": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "-1.0358350276947021",
+          "0.0",
+          "0.37067899107933044",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.4417470097541809",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-0.37067899107933044",
+          "0.0",
+          "-1.0358350276947021",
+          "0.0"
+        ],
+        [
+          "0.089691162109375",
+          "0.0",
+          "-0.31763648986816406",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": true,
+      "lifetime": "0",
+      "numWaxToGive": true,
+      "bstGuid": "99988855",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988856": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.8286629915237427",
+          "0.0",
+          "0.7236530184745789",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.5993310213088989",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-0.7236530184745789",
+          "0.0",
+          "0.8286629915237427",
+          "0.0"
+        ],
+        [
+          "-0.5720901489257812",
+          "0.0",
+          "-0.7660923004150391",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": true,
+      "lifetime": "0",
+      "numWaxToGive": true,
+      "bstGuid": "99988856",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988857": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.5820199847221375",
+          "0.0",
+          "-0.9336000084877014",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.3986000120639801",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "0.9336000084877014",
+          "0.0",
+          "0.5820199847221375",
+          "0.0"
+        ],
+        [
+          "-0.7568283081054688",
+          "0.0",
+          "-0.7208347320556641",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": true,
+      "lifetime": "0",
+      "numWaxToGive": true,
+      "bstGuid": "99988857",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988858": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.5820199847221375",
+          "0.0",
+          "-0.9336000084877014",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.8032529950141907",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "0.9336000084877014",
+          "0.0",
+          "0.5820199847221375",
+          "0.0"
+        ],
+        [
+          "-0.8315887451171875",
+          "0.0",
+          "-0.5353889465332031",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": true,
+      "lifetime": "0",
+      "numWaxToGive": true,
+      "bstGuid": "99988858",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988859": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.5313529968261719",
+          "0.0",
+          "0.9633380174636841",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.7430649995803833",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-0.9633380174636841",
+          "0.0",
+          "0.5313529968261719",
+          "0.0"
+        ],
+        [
+          "-0.30355072021484375",
+          "0.0",
+          "0.08616065979003906",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": true,
+      "lifetime": "0",
+      "numWaxToGive": true,
+      "bstGuid": "99988859",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988860": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.5820199847221375",
+          "0.0",
+          "-0.9336000084877014",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.3796899914741516",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "0.9336000084877014",
+          "0.0",
+          "0.5820199847221375",
+          "0.0"
+        ],
+        [
+          "-0.7185821533203125",
+          "0.0",
+          "0.03923797607421875",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": true,
+      "lifetime": "0",
+      "numWaxToGive": true,
+      "bstGuid": "99988860",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988861": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.4087910056114197",
+          "0.0",
+          "0.7411350011825562",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.7108790278434753",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-0.7411350011825562",
+          "0.0",
+          "0.4087910056114197",
+          "0.0"
+        ],
+        [
+          "-0.6898117065429688",
+          "0.0",
+          "-0.3815765380859375",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": "[Unknown]08",
+      "lifetime": "0",
+      "numWaxToGive": "[Unknown]05",
+      "bstGuid": "99988861",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988862": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.07885000109672546",
+          "0.0",
+          "-1.0973329544067383",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.4007200002670288",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "1.0973329544067383",
+          "0.0",
+          "0.07885000109672546",
+          "0.0"
+        ],
+        [
+          "-0.155914306640625",
+          "0.0",
+          "-0.7620964050292969",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": true,
+      "lifetime": "0",
+      "numWaxToGive": true,
+      "bstGuid": "99988862",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988863": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.48521101474761963",
+          "0.0",
+          "0.8796839714050293",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "1.0046260356903076",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-0.8796839714050293",
+          "0.0",
+          "0.48521101474761963",
+          "0.0"
+        ],
+        [
+          "-0.1754608154296875",
+          "0.0",
+          "-0.4305000305175781",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": "[Unknown]08",
+      "lifetime": "0",
+      "numWaxToGive": "[Unknown]05",
+      "bstGuid": "99988863",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988864": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.5820199847221375",
+          "0.0",
+          "-0.9336000084877014",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.38791200518608093",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "0.9336000084877014",
+          "0.0",
+          "0.5820199847221375",
+          "0.0"
+        ],
+        [
+          "-0.6035537719726562",
+          "0.0",
+          "0.07269477844238281",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": true,
+      "lifetime": "0",
+      "numWaxToGive": true,
+      "bstGuid": "99988864",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988865": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.5701749920845032",
+          "0.0",
+          "1.0337220430374146",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.8989089727401733",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-1.0337220430374146",
+          "0.0",
+          "0.5701749920845032",
+          "0.0"
+        ],
+        [
+          "-0.2015228271484375",
+          "0.0",
+          "-0.14516067504882812",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": "[Unknown]08",
+      "lifetime": "0",
+      "numWaxToGive": "[Unknown]05",
+      "bstGuid": "99988865",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988866": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.45479100942611694",
+          "0.0",
+          "0.8245310187339783",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.7282130122184753",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-0.8245310187339783",
+          "0.0",
+          "0.45479100942611694",
+          "0.0"
+        ],
+        [
+          "-0.35749053955078125",
+          "0.0",
+          "-0.6108379364013672",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": "[Unknown]08",
+      "lifetime": "0",
+      "numWaxToGive": "[Unknown]05",
+      "bstGuid": "99988866",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988867": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "0.5562340021133423",
+          "0.0",
+          "1.0084459781646729",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.8769299983978271",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-1.0084459781646729",
+          "0.0",
+          "0.5562340021133423",
+          "0.0"
+        ],
+        [
+          "-0.5406494140625",
+          "0.0",
+          "-0.5076026916503906",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": "[Unknown]08",
+      "lifetime": "0",
+      "numWaxToGive": "[Unknown]05",
+      "bstGuid": "99988867",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  },
+  "BstNode_99988868": {
+    "CandleObject": {
+      "enabled": true,
+      "transform": [
+        [
+          "-1.0958410501480103",
+          "0.0",
+          "0.0974159985780716",
+          "0.0"
+        ],
+        [
+          "0.0",
+          "0.8032529950141907",
+          "0.0",
+          "0.0"
+        ],
+        [
+          "-0.0974159985780716",
+          "0.0",
+          "-1.0958410501480103",
+          "0.0"
+        ],
+        [
+          "-0.17664337158203125",
+          "0.0",
+          "-0.6201667785644531",
+          "1.0"
+        ]
+      ],
+      "specialSound": false,
+      "lit": false,
+      "consumable": false,
+      "meshType": true,
+      "lifetime": "0",
+      "numWaxToGive": true,
+      "bstGuid": "99988868",
+      "NoLitSound": false,
+      "emberRadius": "0"
+    }
+  }
+}
