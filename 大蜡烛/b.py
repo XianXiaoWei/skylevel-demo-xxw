@@ -47,7 +47,7 @@ ref_y = float(first_pos[1])
 ref_z = float(first_pos[2])
 
 print("=" * 80)
-print("蜡烛节点坐标偏移工具")
+print("蜡烛节点坐标偏移工具 (带缩放)")
 print("=" * 80)
 print(f"\n参考节点: {first_node_id}")
 print(f"参考坐标: ({ref_x:.6f}, {ref_y:.6f}, {ref_z:.6f})")
@@ -76,6 +76,24 @@ except ValueError:
     print("错误: 请输入有效的数字")
     exit()
 
+# 用户输入缩放倍数
+print("\n" + "=" * 80)
+print("请输入缩放倍数 (偏移和物体大小都会乘以该倍数):")
+print("-" * 80)
+print("  - 位置偏移:  X/Z = 基础坐标 + 偏移 × 缩放")
+print("  - 位置偏移:  Y   = 基础坐标 + 偏移 (不缩放)")
+print("  - 矩阵大小:  3x3 旋转/缩放部分 × 缩放倍数 (照常)")
+print("  - 例如: 1.0=不缩放, 2.0=放大2倍, 0.5=缩小一半")
+print("-" * 80)
+try:
+    scale = float(input("请输入缩放倍数 (默认 1.0): ") or "1.0")
+    if scale == 0:
+        print("错误: 缩放倍数不能为 0")
+        exit()
+except ValueError:
+    print("错误: 请输入有效的数字")
+    exit()
+
 # 用户输入起始节点ID
 print("\n" + "=" * 80)
 print("请输入新的节点ID起始值:")
@@ -87,6 +105,7 @@ except ValueError:
     exit()
 
 print(f"\n新基础坐标: ({new_x:.6f}, {new_y:.6f}, {new_z:.6f})")
+print(f"缩放倍数: {scale} (Y 轴坐标不缩放)")
 print(f"起始节点ID: {start_node_id}")
 
 # 创建新的节点数据
@@ -105,11 +124,12 @@ for i, old_node_id in enumerate(nodes.keys()):
     # 获取偏移
     dx, dy, dz = offsets[old_node_id]
     
-    # 计算新坐标 (保持为字符串，加引号)
+    # 计算新坐标 = 基础坐标 + 偏移 × 缩放 (保持为字符串，加引号)
+    # 注意: Y 轴坐标不缩放，偏移直接相加；X/Z 轴偏移乘以缩放倍数
     new_pos = [
-        str(new_x + dx),
+        str(new_x + dx * scale),
         str(new_y + dy),
-        str(new_z + dz),
+        str(new_z + dz * scale),
         "1.0"
     ]
     
@@ -118,6 +138,18 @@ for i, old_node_id in enumerate(nodes.keys()):
     
     # 更新坐标 (全部为字符串)
     node_data['CandleObject']['transform'][3] = new_pos
+    
+    # 缩放矩阵的 3x3 旋转/缩放部分 (前3行的前3列 × 缩放倍数)
+    # transform 结构:
+    #   [0] = [m00, m01, m02, 0.0]  →  [m00*s, m01*s, m02*s, 0.0]
+    #   [1] = [m10, m11, m12, 0.0]  →  [m10*s, m11*s, m12*s, 0.0]
+    #   [2] = [m20, m21, m22, 0.0]  →  [m20*s, m21*s, m22*s, 0.0]
+    #   [3] = [tx,  ty,  tz,  1.0] (已在上面更新)
+    # 注意: 矩阵缩放照常 (全部 × 缩放倍数), Y 轴不缩放只针对位置坐标
+    for row in range(3):
+        for col in range(3):
+            original_val = float(node_data['CandleObject']['transform'][row][col])
+            node_data['CandleObject']['transform'][row][col] = str(original_val * scale)
     
     # 更新bstGuid (纯数字，不加前缀)
     node_data['CandleObject']['bstGuid'] = pure_number
@@ -128,6 +160,7 @@ for i, old_node_id in enumerate(nodes.keys()):
     print(f"旧ID: {old_node_id} -> 新ID: {new_node_id}")
     print(f"  bstGuid: {pure_number}")
     print(f"  坐标: ({new_pos[0]}, {new_pos[1]}, {new_pos[2]})")
+    print(f"  矩阵已缩放 ×{scale}")
 
 # 保存新的JSON文件
 output_file = 'objects.level.bin_modified.json'
@@ -162,6 +195,15 @@ print("\nbstGuid范围:")
 print(f"起始: {start_node_id}")
 print(f"结束: {start_node_id + len(new_nodes) - 1}")
 
+# 显示缩放效果总结
+print("\n" + "=" * 80)
+print("缩放效果总结:")
+print("-" * 80)
+print(f"缩放倍数: {scale} (Y 轴坐标不缩放)")
+print(f"位置偏移: X/Z 轴 偏移 × {scale}, Y 轴偏移不缩放")
+print(f"矩阵大小: 3x3 旋转/缩放部分 × {scale} (照常)")
+print(f"  - 例如: 原始 m00=0.511083 → 新 m00={0.511083 * scale:.6f}")
+
 # 显示JSON中节点ID的格式验证
 print("\n" + "=" * 80)
 print("验证JSON中的格式:")
@@ -172,9 +214,10 @@ sample_transform = new_nodes[sample_node_id]['CandleObject']['transform']
 print(f"节点键: {sample_node_id} (类型: {type(sample_node_id).__name__})")
 print(f"bstGuid: {sample_bstGuid} (类型: {type(sample_bstGuid).__name__})")
 print(f"坐标值类型: {type(sample_transform[3][0]).__name__}, {type(sample_transform[3][1]).__name__}, {type(sample_transform[3][2]).__name__}")
+print(f"矩阵值类型: {type(sample_transform[0][0]).__name__} (均为字符串)")
 print("✓ 节点键保持 BstNode_ 前缀，是字符串类型 (有引号)")
 print("✓ bstGuid 是纯数字，是字符串类型 (有引号)")
-print("✓ 所有坐标值都是字符串类型 (有引号)")
+print("✓ 所有坐标值和矩阵值都是字符串类型 (有引号)")
 
 # 显示一个完整的节点示例
 print("\n完整的节点示例:")
